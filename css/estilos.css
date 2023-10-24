@@ -731,7 +731,6 @@ input[type="submit"]:hover {
     background-color: black;
 }
 
-
 /* Menu de abajo */
 
 .sub-menu {
@@ -756,7 +755,6 @@ input[type="submit"]:hover {
     flex-wrap: wrap;
     gap: 1rem; 
 }
-
 
 /* Sub footer */
 .sub-footer-icons {
