@@ -154,69 +154,132 @@ h1, h2, h3, h4, h5, h6 {
     aspect-ratio: 1 / 1;
     object-fit: cover;
 }
-/*Formulario Pagina contacto*/
 
-.formulario-contacto {
-    padding: 4rem;
-}
-
-.formulario {
-    width: 300px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    background-color: #f9f9f9;
-    flex-wrap: wrap;
-}
-
-.formularioh1 {
-    font-weight: 800;
-    color: black;
-    flex-wrap: wrap;
-    text-align: center;
-    padding: 2rem;
-}
-
-.label {
-    display: block;
-    margin-bottom: 10px;
-    font-weight: bold;
-    flex-wrap: wrap;
-}
-
-input[type="text"],
-input[type="email"],
-input[type="number"],
-textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    resize: vertical;
-    flex-wrap: wrap;
-}
-
-input[type="submit"] {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    flex-wrap: wrap;
-}
-
-input[type="submit"]:hover {
-    background-color: #0056b3;
-}
 /* Sitios web */
 
-.sitios-web {
+.banner-sitiosweb {
+    width: 100%;
+    flex-wrap: wrap; 
+    padding: 1rem;
+}
+
+.banner-sitiosweb {
+    background-color: rgb(225, 0, 255);
+    padding-block: 2rem;
+    text-align: center;
+    font-weight: 800;
+}
+
+.container-sitiosweb {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.caja-izquierda {
+    flex: 1;
+    padding: 10px;
+}
+
+.texto1-lado {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.imagen1-sitiosweb {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.linea-web {
+    width: 100%;
+    flex-wrap: wrap; 
+    padding: 1rem;
+}
+
+.linea-web {
+    background-color: rgb(104, 30, 37);
+    padding-block: 1rem;
+    text-align: center;
+    font-weight: 800;
+}
+
+.galeria-web {
+    padding-block: 2rem;
+}
+
+.galeria-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 800;
+}
+
+.galeriaweb-container {
+    display: flex;
+    max-width: 1000px;
     margin-inline: auto;
     gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.galeriaweb-foto {
+    width: 100%; 
+}
+
+.galeriaweb-foto img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.barra-web {
+    width: 100%;
+    flex-wrap: wrap; 
+    padding: 1rem;
+}
+
+.barra-web {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: rgb(0, 81, 255);
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.barra {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; 
+}
+
+
+/* Media query para sitios web */
+
+@media (max-with: 768px ) {
+    .container-sitiosweb {
+        flex-direction: column;
+    }
+    .caja-izquierda {
+        flex: none;
+        max-width: 100%;
+    }
+}
+
+@media (max-with: 768px ) {
+    .galeria-web {
+        flex-direction: column;
+    }
+    .galeriaweb-container {
+        flex: none;
+        max-width: 100%;
+    }
 }
 
 .parrafo-container {
@@ -321,6 +384,106 @@ input[type="submit"]:hover {
     float: right;
 }
 
+/* Pagina de consultoria*/ 
+
+.banner-consultoria {
+    width: 100%;
+    flex-wrap: wrap; 
+    padding: 1rem;
+}
+
+.banner-consultoria {
+    background-color: green;
+    padding-block: 2rem;
+    text-align: center;
+    font-weight: 800;
+}
+
+.container-consultoria {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.caja-izquierda {
+    flex: 1;
+    padding: 10px;
+}
+
+.texto-lado {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.imagen1-consultoria {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.linea {
+    width: 100%;
+    flex-wrap: wrap; 
+    padding: 1rem;
+}
+
+.linea {
+    background-color: rgb(130, 185, 130);
+    padding-block: 1rem;
+    text-align: center;
+    font-weight: 800;
+}
+
+.texto2-lado {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.container2-consultoria {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.caja-derecha {
+    flex: 1;
+    padding: 10px;
+}
+
+.imagen2-consultoria {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.banner-caracteristicas {
+    width: 100%;
+    flex-wrap: wrap; 
+    padding: 1rem;
+}
+
+.banner-caracteristicas {
+    background-color: rgb(255, 0, 0);
+    padding-block: 1rem;
+    text-align: center;
+    font-weight: 800;
+}
+
+/* Media query para consultoría */
+
+@media (max-with: 768px ) {
+    .container-consultoria {
+        flex-direction: column;
+    }
+    .caja-izquierda, .caja-derecha {
+        flex: none;
+        max-width: 100%;
+    }
+}
 /*Pagina portfolio con grid*/
 
 .clientes {
@@ -493,13 +656,70 @@ input[type="submit"]:hover {
     }
 }
 
+/*Formulario Pagina contacto*/
+
+.formulario-contacto {
+    padding: 4rem;
+}
+
+.formulario {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    flex-wrap: wrap;
+}
+
+.formularioh1 {
+    font-weight: 800;
+    color: black;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 2rem;
+}
+
+.label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    flex-wrap: wrap;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    flex-wrap: wrap;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
 /* chat bot de whatsapp */
 
 .whatsapp {
-   position: fixed;
-   bottom: 3rem;
-   right: 1rem;
-}
+    position: fixed;
+    bottom: 6rem;
+    right: 1rem;
+ }
 
 /* Menu de abajo Marketing */
 
@@ -509,75 +729,34 @@ input[type="submit"]:hover {
     align-items: center;
     color: white;
     background-color: black;
-    font-size: 1rem;
-}
-.menu-titulos-marketing {
-    font-size: 1.5rem;
 }
 
-.menu-ultimo-marketing {
-    color: rgb(216, 31, 31);
-    text-decoration: none;
-    align-items: first none;
-    display: block;
-}
-
-.footer-marketing {
-    background-color: black;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
-}
-
-.footer-menu-marketing {
-    color: white;
-    padding: 3rem;
-}
-
-.menultimo-marketing {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
 
 /* Menu de abajo */
 
-.footer-menu {
+.sub-menu {
+    width: 100%;
+    flex-wrap: wrap; 
+    padding: 1rem;
+}
+
+.sub-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: white;
-    background-color: black;
-    font-size: 1rem;
+    background-color: rgb(0, 0, 0);
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
-.menu {
+.sub-menu {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem; 
 }
 
-.menu-ultimo {
-    color: rgb(136, 214, 9);
-}
-
-.footer {
-    background-color: black;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
-}
-
-.footer-menu {
-    color: white;
-    padding: 3rem;
-}
-
-.menultimo {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
 
 /* Sub footer */
 .sub-footer-icons {
