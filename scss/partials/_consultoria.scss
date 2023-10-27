@@ -1,0 +1,92 @@
+// Pagina de consultoria
+
+.banner-consultoria {
+    width: 100%;
+    flex-wrap: wrap; 
+    padding: 1rem;
+}
+    .banner-consultoria {
+        background-color: green;
+        padding-block: 2rem;
+        text-align: center;
+        font-weight: 800;
+    }
+
+    .container-consultoria {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .caja-izquierda {
+        flex: 1;
+        padding: 10px;
+    }
+        .texto-lado {
+            flex: 1;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .imagen1-consultoria {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+    .linea {
+        width: 100%;
+        flex-wrap: wrap; 
+        padding: 1rem;
+    }
+        .linea {
+            background-color: rgb(130, 185, 130);
+            padding-block: 1rem;
+            text-align: center;
+            font-weight: 800;
+        }
+    
+    .texto2-lado {
+        flex: 1;
+        text-align: center;
+        padding: 20px;
+    }
+        .container2-consultoria {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+        }
+            .caja-derecha {
+                flex: 1;
+                padding: 10px;
+            }
+                .imagen2-consultoria {
+                    max-width: 100%;
+                    height: auto;
+                    display: block;
+                }
+    
+    .banner-caracteristicas {
+        width: 100%;
+        flex-wrap: wrap; 
+        padding: 1rem;
+    }
+        .banner-caracteristicas {
+            background-color: rgb(255, 0, 0);
+            padding-block: 1rem;
+            text-align: center;
+            font-weight: 800;
+        }
+// Media query para consultoría
+
+@media (max-with: 768px ) {
+    .container-consultoria {
+        flex-direction: column;
+    }
+        .caja-izquierda, .caja-derecha {
+            flex: none;
+            max-width: 100%;
+        }
+    }

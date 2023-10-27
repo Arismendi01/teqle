@@ -1,0 +1,103 @@
+// Pagina Marketing
+
+.galeria-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 800;
+}
+    .galeria3-container {
+        display: flex;
+        max-width: 1000px;
+        margin-inline: auto;
+        gap: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .galeria-foto {
+        width: 100%; 
+    }
+
+    .galeria-foto img {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        object-fit: cover; 
+    }
+
+    .hero3 {
+        padding-block: 0,3rem;
+        background-color: rgb(1, 90, 255);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+    }
+        .hero3-text {
+            color: black;
+            font-weight: 600;
+        }
+
+    .galeria-clientes {
+        padding-block: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+        .galeria-title3 {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            font-weight: 800;
+        }
+
+    .iconos-marketing {
+        max-width: 1200px;
+        display: flex;
+        align-items: center;
+        margin-inline: auto;
+        gap: 2rem;
+    }
+        .iconos {
+            background-color: greenyellow;
+            color: black;
+            padding-block: 2rem;
+            padding: 1rem;
+        }
+    
+        .icono {
+            flex: 1;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+           
+        }
+    
+        .icono > div {
+            border: 2px solid black;
+            width: 3rem;
+            height: 3rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+        }
+        
+        .icono-icon {
+            font-size: 2rem;
+        }
+        
+        .icon {
+            float: right;
+        }
+
+// Menu de abajo Marketing boostrap
+
+.footer-menu-marketing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: black;
+}

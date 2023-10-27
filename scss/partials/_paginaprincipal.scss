@@ -1,0 +1,89 @@
+// seccion 1
+
+.hero {
+    background-color: gray;
+    color: white;
+    padding: 4rem;
+
+    .hero-container {
+        max-width: 1200px;
+        display: flex;
+        align-items: center;
+        margin-inline: auto;
+
+        .hero-title {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .hero-text1 {
+            border-bottom: 1px solid white;
+            margin-bottom: 1rem;
+            padding-bottom: 1rem;
+        }
+
+        .hero-text2 {
+            margin-bottom: 1rem
+        }
+
+        .btn {
+            background-color: black;
+            color: gray;
+            padding: .5rem 1.5rem;
+            font-weight: 600;
+        }
+        
+    }
+
+}
+
+// seccion2 
+
+.hero2 {
+    padding-block: 2rem;
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .hero2-text {
+        color: black;
+        font-weight: 800;
+    }
+}
+
+
+// banner principal 
+
+.banner {
+    width: 100%;
+    flex-wrap: wrap; 
+    padding: 1rem;
+}
+
+// Galeria de productos
+
+.galeria {
+    padding-block: 2rem;
+}
+    .galeria-title {
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 2rem;
+        font-weight: 800;
+        }
+        .galeria-container {
+            display: flex;
+            max-width: 1000px;
+            margin-inline: auto;
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+        .galeria-foto {
+            width: 100%; 
+        }
+            .galeria-foto img {
+                width: 100%;
+                aspect-ratio: 1 / 1;
+                object-fit: cover;
+            }

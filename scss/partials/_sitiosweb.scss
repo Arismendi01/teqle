@@ -1,0 +1,114 @@
+// Sitios web
+
+.banner-sitiosweb {
+    width: 100%;
+    flex-wrap: wrap; 
+    padding: 1rem;
+}
+    .banner-sitiosweb {
+        background-color: rgb(225, 0, 255);
+        padding-block: 2rem;
+        text-align: center;
+        font-weight: 800;
+    }
+
+    .container-sitiosweb {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .caja-izquierda {
+        flex: 1;
+        padding: 10px;
+    }
+        .texto1-lado {
+            flex: 1;
+            text-align: center;
+            padding: 20px;
+        }
+
+    .imagen1-sitiosweb {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .linea-web {
+        width: 100%;
+        flex-wrap: wrap; 
+        padding: 1rem;
+    }
+        .linea-web {
+            background-color: rgb(104, 30, 37);
+            padding-block: 1rem;
+            text-align: center;
+            font-weight: 800;
+        }
+
+    .galeria-web {
+        padding-block: 2rem;
+    }
+        .galeria-title {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            font-weight: 800;
+        }
+    
+        .galeriaweb-container {
+            display: flex;
+            max-width: 1000px;
+            margin-inline: auto;
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+            .galeriaweb-foto {
+                width: 100%; 
+            }
+                .galeriaweb-foto img {
+                    width: 100%;
+                    aspect-ratio: 1 / 1;
+                    object-fit: cover;
+                }
+
+    .barra-web {
+        width: 100%;
+        flex-wrap: wrap; 
+        padding: 1rem;
+    }
+        .barra-web {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+            background-color: rgb(0, 81, 255);
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+    
+        .barra {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem; 
+        }
+
+    .parrafo-container {
+        background-color: rgb(196, 52, 52);
+        color: rgb(0, 0, 0);
+        padding: 6rem;
+    }
+
+// Media query para sitios web
+
+@media (max-with: 768px ) {
+    .container-sitiosweb {
+        flex-direction: column;
+    }
+    .caja-izquierda {
+        flex: none;
+        max-width: 100%;
+    }
+}

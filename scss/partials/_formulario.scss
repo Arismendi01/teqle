@@ -1,0 +1,56 @@
+// Formulario Pagina contacto
+
+.formulario-contacto {
+    padding: 4rem;
+
+    .formulario {
+        width: 300px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        background-color: #f9f9f9;
+        flex-wrap: wrap;
+    }
+
+    .formularioh1 {
+        font-weight: 800;
+        color: black;
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+        flex-wrap: wrap;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        resize: vertical;
+        flex-wrap: wrap;
+    }
+
+    input[type="submit"] {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        flex-wrap: wrap;
+    }
+    
+    input[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+}
