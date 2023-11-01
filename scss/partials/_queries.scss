@@ -1,0 +1,789 @@
+// header
+
+.menu { 
+
+
+    @media screen and (max-width: 768px) {
+            flex-direction: column;
+    }
+
+    @media screen and (max-width: 480px) {
+            flex-direction: column;
+    }
+
+    @media screen and (max-width: 320px) {
+            flex-direction: column;
+    } 
+}
+
+.nav1 {   
+    @media screen and (max-width: 1024px) {
+            flex-direction: column;
+    }
+            
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+    
+    }
+
+    @media screen and (max-width: 480px) {
+        flex-direction: column;
+    }
+
+    @media screen and (max-width: 320px) {
+            flex-direction: column;    
+    }
+}
+
+// pagina principal
+// seccion 1
+
+.hero {
+    @media screen and (max-width: 1200px) {
+            padding: 1rem;
+    }
+
+    @media screen and (max-width: 1024px) {
+            flex-direction: column;
+            padding: 1rem;
+    }
+
+    @media screen and (max-width: 768px) {
+            flex-direction: column;
+            padding: 1rem;
+    }
+
+    @media screen and (max-width: 480px) {
+            flex-direction: column;
+            padding: .2rem;
+    }
+
+    @media screen and (max-width: 320px) {
+            flex-direction: column;
+            padding: 0.5rem;
+    }
+}
+
+.hero-container {
+    @media screen and (max-width: 1200px) {
+        padding: 1rem;
+    }    
+
+    @media screen and (max-width: 1024px) {
+        padding: 1rem;   
+        }
+    
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    @media screen and (max-width: 480px) {
+        flex-direction: column;
+        padding: 1.4rem;  
+    }
+
+    @media screen and (max-width: 320px) {
+        flex-direction: column;
+        padding: .5rem;
+    }
+
+}
+
+.img-hero {
+
+    @media screen and (max-width: 1200px) {
+    max-width: 700px;
+    gap: 1rem;
+    }
+    
+    @media screen and (max-width: 1024px) {
+    flex-direction: column;
+    max-width: 500px;
+    gap: 1rem;
+    }
+    
+    @media screen and (max-width: 768px) {
+    flex-direction: column;
+    max-width: 500px;
+    gap: 2rem;
+    }
+
+    @media screen and (max-width: 480px) {
+        flex-direction: column;
+        max-width: 350px;
+        gap: 1,5rem;
+    }
+
+    @media screen and (max-width: 320px) {
+        flex-direction: column;
+        max-width: 250px;
+        gap: .5rem;
+    }
+}
+
+.hero-title {
+    @media screen and (max-width: 1200px) {
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+        
+    @media screen and (max-width: 1024px) {
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+            
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    @media screen and (max-width: 480px) {
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 0.5rem;
+    }
+
+    @media screen and (max-width: 320px) {
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: .5rem;
+    }   
+} 
+
+.hero-text1 {
+    @media screen and (max-width: 1200px) {
+        text-align: justify;
+        margin-bottom: 1rem;
+        padding: .5rem;
+    }
+        
+    @media screen and (max-width: 1024px) {
+        flex-direction: column;
+        text-align: justify;
+        margin-bottom: 1rem;
+        padding: .5rem;
+    }
+        
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        text-align: justify;
+        margin-bottom: 1rem;
+        padding: 1.5rem;
+    }
+
+    @media screen and (max-width: 480px) {
+        flex-direction: column;
+        text-align: justify;
+        margin-bottom: 0.5rem;
+        padding: 1rem;
+    }
+
+    @media screen and (max-width: 320px) {
+        flex-direction: column;
+        text-align: justify;
+        margin-bottom: 1rem;
+        padding: .5rem;
+    }
+}
+
+.hero-text2 {
+    @media screen and (max-width: 1200px) {
+        text-align: justify;
+        margin-bottom: 1rem;
+        padding: .5rem;
+    }
+        
+    @media screen and (max-width: 1024px) {
+        flex-direction: column;
+        text-align: justify;
+        margin-bottom: 1rem;
+        padding: .5rem;
+    }
+        
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        text-align: justify;
+        margin-bottom: 1rem;
+        padding: 1.5rem;
+    }
+
+    @media screen and (max-width: 480px) {
+        flex-direction: column;
+        text-align: justify;
+        margin-bottom: 0.5rem;
+        padding: 1rem;
+    }
+
+    @media screen and (max-width: 320px) {
+        flex-direction: column;
+        text-align: justify;
+        margin-bottom: 1rem;
+        padding: .5rem;
+    }
+}
+
+.btn {
+    @media screen and (max-width: 1200px) {
+        padding: .8rem 1.2rem;
+        font-weight: 600;
+        display: center;
+        margin: 180px;
+    }
+        
+    @media screen and (max-width: 1024px) {
+        padding: .5rem 1.2rem;
+        font-weight: 400;
+        display: center;
+        margin: 90px;
+    }
+        
+    @media screen and (max-width: 768px) {
+        padding: .5rem 1.2rem;
+        font-weight: 400;
+        display: center;
+        margin: 250px;
+    }
+
+    @media screen and (max-width: 480px) {
+        padding: .5rem 1.2rem;
+        font-weight: 400;
+        display: center;
+        margin: 100px;
+    }
+
+    @media screen and (max-width: 320px) {
+        padding: .2rem .5rem;
+        font-weight: 200;
+        display: center;
+        margin: 50px;
+    }  
+}
+
+// seccion2 
+.hero2 {
+    @media screen and (max-width: 1024px) {
+        padding-block: 1.5rem;
+    }
+
+    @media screen and (max-width: 768px) {
+        padding-block: 0.7rem;
+    }
+
+    @media screen and (max-width: 480px) {
+        padding-block: 0.4rem;
+    }
+
+    @media screen and (max-width: 320px) {
+        padding-block: 0.2rem;
+    }
+}
+
+.hero2-text {
+    @media screen and (max-width: 480px) {
+        font-weight: 600;
+    }
+
+    @media screen and (max-width: 320px) {
+        font-weight: 400;
+    }
+}
+
+// Galeria de productos
+
+.galeria {
+    @media screen and (max-width: 1024px) {
+        padding: 3.3rem;
+    }
+
+    @media screen and (max-width: 768px) {
+        padding: 3.3rem;
+    }
+
+    @media screen and (max-width: 480px) {
+        padding: 1.5rem;
+    }
+
+    @media screen and (max-width: 320px) {
+        padding: 1rem;
+    }
+}
+
+.galeria-title {
+    @media screen and (max-width: 1024px) {
+        font-weight: 600;
+        gap: 1rem;
+    }
+    
+    @media screen and (max-width: 768px) {
+        font-weight: 400;
+        gap: 1rem;
+    }
+
+    @media screen and (max-width: 480px) {
+        font-weight: 300;
+        gap: .5rem;
+    }
+
+    @media screen and (max-width: 320px) {
+        font-weight: 200;
+        gap: .5rem;
+    }
+}
+
+.galeria-container {
+    @media screen and (max-width: 1024px) {
+        flex-direction: column;
+        max-width: 900px;
+        gap: 1.5rem;
+        margin-bottom: 0;
+        padding: .5rem;
+    }
+        
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        max-width: 900px;
+        gap: 1.5rem;
+        margin-bottom: 0;
+        padding: .5rem;
+    }
+
+    @media screen and (max-width: 480px) {
+        flex-direction: column;
+        max-width: 450px;
+        gap: 1rem;
+        margin-bottom: 0;
+        padding: 1.2rem;
+    }
+
+    @media screen and (max-width: 320px) {
+        flex-direction: column;
+        max-width: 270px;
+        gap: .5rem;
+        margin-bottom: 0;
+        padding: 1rem;
+    }
+}
+
+.img-hero {
+    @media screen and (max-width: 1200px) {
+            max-width: 100%;
+        }
+    
+    @media screen and (max-width: 1024px) {
+            max-width: 100%;
+        }
+    
+    @media screen and (max-width: 768px) {
+            max-width: 100%;
+        }
+    @media screen and (max-width: 480px) {
+            max-width: 100%;
+        }
+
+    @media screen and (max-width: 320px) {
+            max-width: 100%;
+        }
+}  
+
+// Sitios web
+
+.banner-sitiosweb {
+    @media screen and (max-width: 1200px) {
+        flex-direction: column;
+        padding-block: 2rem;
+    }    
+
+    @media screen and (max-width: 1024px) {
+        flex-direction: column;
+        padding-block: 1rem; 
+        }
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        padding-block: .9rem;
+    }
+
+    @media screen and (max-width: 480px) {
+        flex-direction: column;
+        padding-block: .7rem;
+    }
+
+    @media screen and (max-width: 320px) {
+        flex-direction: column;
+        padding-block: .5rem;
+    }
+}
+    .container-sitiosweb {
+        @media screen and (max-width: 1024px) {
+            padding: 2rem;
+            }
+    
+        @media screen and (max-width: 768px) {
+            flex-direction: column;
+            padding: 2.5rem;
+        }
+    
+        @media screen and (max-width: 480px) {
+            flex-direction: column;
+            padding: 2rem;
+        }
+    
+        @media screen and (max-width: 320px) {
+            flex-direction: column;
+            padding: 1rem;
+        }
+    }
+        .texto1-lado {
+            @media screen and (max-width: 768px) {
+                text-align: justify;
+            }
+        
+            @media screen and (max-width: 480px) {
+                text-align: justify;
+            }
+        
+            @media screen and (max-width: 320px) {
+                padding: 1.6rem;
+                text-align: justify;
+            }
+        }
+
+        .galeriaweb-container {
+            @media screen and (max-width: 1024px) {
+                padding: 3.5rem;
+                }
+        
+            @media screen and (max-width: 768px) {
+                flex-direction: column;
+                padding: 3rem;
+            }
+        
+            @media screen and (max-width: 480px) {
+                flex-direction: column;
+                padding: 2.7rem;
+            }
+        
+            @media screen and (max-width: 320px) {
+                flex-direction: column;
+                padding: 2.7rem;
+            }
+        }
+
+        .barra-web {
+            @media screen and (max-width: 480px) {
+                flex-direction: column;
+            }
+    
+            @media screen and (max-width: 320px) {
+                flex-direction: column;
+            }
+        }
+
+// Pagina Marketing
+
+.galeria-clientes {
+    @media screen and (max-width: 320px) {
+        flex-direction: column;
+        padding: .5rem;
+    }
+}
+
+.galeria-title3 {
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    @media screen and (max-width: 480px) {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    @media screen and (max-width: 320px) {
+        flex-direction: column;
+        padding: .1rem;
+
+    }
+}
+
+.iconos-marketing {
+    @media screen and (max-width: 1024px) {
+        padding: 3.5rem;
+        }
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        padding: 3rem;
+    }
+
+    @media screen and (max-width: 480px) {
+        flex-direction: column;
+        padding: 2.7rem;
+    }
+
+    @media screen and (max-width: 320px) {
+        flex-direction: column;
+        padding: .5rem;
+    }
+}
+
+// Pagina de consultoria
+
+.container-consultoria {
+    @media screen and (max-width: 1024px) {
+        padding: 3.5rem;
+        }
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        padding: 3rem;
+    }
+
+    @media screen and (max-width: 480px) {
+        flex-direction: column;
+        padding: 2.7rem;
+    }
+
+    @media screen and (max-width: 320px) {
+        flex-direction: column;
+        padding: 2.2rem;
+    }
+}
+
+.texto-lado {
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        text-align: justify;
+    }
+
+    @media screen and (max-width: 480px) {
+        flex-direction: column;
+        padding: .5rem;
+        text-align: justify;
+    }
+
+    @media screen and (max-width: 320px) {
+        flex-direction: column;
+        padding: 1rem;
+        text-align: justify;
+    }
+}
+
+.container2-consultoria {
+    @media screen and (max-width: 1024px) {
+        padding: 3.5rem;
+        }
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        padding: 3rem;
+    }
+
+    @media screen and (max-width: 480px) {
+        flex-direction: column;
+        padding: 2.7rem;
+    }
+
+    @media screen and (max-width: 320px) {
+        flex-direction: column;
+        padding: 2.2rem;
+    }
+}
+
+.texto2-lado {
+    @media screen and (max-width: 1024px) {
+        padding: 3.5rem;
+        }
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        text-align: justify;
+    }
+
+    @media screen and (max-width: 480px) {
+        flex-direction: column;
+        padding: .5rem;
+        text-align: justify;
+    }
+
+    @media screen and (max-width: 320px) {
+        flex-direction: column;
+        padding: 1rem;
+        text-align: justify;
+    }
+}
+
+// Pagina portfolio
+.clientes {
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    @media screen and (max-width: 480px) {
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+    }
+
+    @media screen and (max-width: 320px) {
+        flex-direction: column;
+        padding: 1.5rem;
+        text-align: center;
+    }
+}
+
+.clientes:hover {
+    color: blue;
+    background-color: yellow;
+}
+
+// Modo responsive del grid 
+
+    @media (max-width: 1200px) {
+        .grid-container {
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 2fr  2fr  1fr  1fr;
+            grid-template-areas: 
+            "logo-gallery1  logo-gallery2"
+            "logo-gallery3  logo-gallery4"
+            "logo-gallery5  logo-gallery6"
+            "logo-gallery7  logo-gallery8"
+            ;
+        }
+    }
+    
+    @media (max-width: 1024px) {
+        .grid-container {
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 2fr  1fr  1fr  1fr;
+            grid-template-areas: 
+            "logo-gallery1  logo-gallery2"
+            "logo-gallery3  logo-gallery4"
+            "logo-gallery5  logo-gallery6"
+            "logo-gallery7  logo-gallery8"
+            ;
+        }
+    }
+    
+    @media (max-width: 768px) {
+        .grid-container {
+            grid-template-columns: 1fr;
+            grid-template-rows: 3fr 3fr 3fr 3fr 3fr 1fr 1fr 1fr;
+            grid-template-areas: 
+            "logo-gallery1"
+            "logo-gallery2"
+            "logo-gallery3"
+            "logo-gallery4"
+            "logo-gallery5"
+            "logo-gallery6"
+            "logo-gallery7"
+            "logo-gallery8"
+            ;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .grid-container {
+            grid-template-columns: 1fr;
+            grid-template-rows: 3fr 3fr 3fr 3fr 1fr 1fr 1fr 1fr;
+            grid-template-areas: 
+            "logo-gallery1"
+            "logo-gallery2"
+            "logo-gallery3"
+            "logo-gallery4"
+            "logo-gallery5"
+            "logo-gallery6"
+            "logo-gallery7"
+            "logo-gallery8"
+            ;
+        }
+    }
+    
+    @media (max-width: 320px) {
+        .grid-container {
+            grid-template-columns: 1fr;
+            grid-template-rows: 3fr 3fr 3fr 1fr 1fr 1fr 1fr 1fr;
+            grid-template-areas: 
+            "logo-gallery1"
+            "logo-gallery2"
+            "logo-gallery3"
+            "logo-gallery4"
+            "logo-gallery5"
+            "logo-gallery6"
+            "logo-gallery7"
+            "logo-gallery8"
+            ;
+        }
+    }
+
+
+// Menu de abajo
+
+.sub-menu {  
+        @media screen and (max-width: 768px) {
+            flex-direction: column;
+        }
+
+        @media screen and (max-width: 480px) {
+            flex-direction: column;
+        }
+
+        @media screen and (max-width: 320px) {
+            flex-direction: column;
+        }
+}
+
+// Sub footer 
+.copyright {
+    @media screen and (max-width: 768px) {
+        align-items: center;
+    }
+
+    @media screen and (max-width: 480px) {
+        align-items: center;
+    }
+    
+    @media screen and (max-width: 320px) {
+        align-items: center;
+    }
+}
+
+// chat bot de whatsapp
+
+.whatsapp {
+    @media screen and (max-width: 1200px) {
+        flex-direction: column;
+        right: .7rem;
+        bottom: 5.5rem;
+    }
+
+    @media screen and (max-width: 1024px) {
+        flex-direction: column;
+        right: .7rem;
+        bottom: 9rem;
+    }
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        right: .5rem;
+        bottom: 2.2rem;
+    }
+
+    @media screen and (max-width: 480px) {
+        flex-direction: column;
+        right: .1rem;
+        bottom: 2.1rem;
+    }
+
+    @media screen and (max-width: 320px) {
+        flex-direction: column;
+        right: .1rem;
+        bottom: 2.2rem;
+    }
+}

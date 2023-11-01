@@ -1,27 +1,19 @@
 // Menu de abajo
 
-.sub-menu {
+.sub-menu {    
     width: 100%;
     flex-wrap: wrap; 
     padding: 1rem;
+    display: flex;
+    gap: 1rem; 
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    top: 0;
+    left: 0;
+    width: 100%;
 }
-    .sub-menu {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        color: white;
-        background-color: rgb(0, 0, 0);
-        top: 0;
-        left: 0;
-        width: 100%;
-    }
-
-    .sub-menu {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 1rem; 
-    }
-
 
 // Sub footer 
 .sub-footer-icons {
@@ -40,11 +32,11 @@
         justify-content: flex-end;
     }
 
-
 // chat bot de whatsapp
 
 .whatsapp {
     position: fixed;
     bottom: 6rem;
     right: 1rem;
- }
+    display: flex;
+}

@@ -4,38 +4,36 @@
     background-color: gray;
     color: white;
     padding: 4rem;
+}
 
     .hero-container {
         max-width: 1200px;
         display: flex;
         align-items: center;
         margin-inline: auto;
-
-        .hero-title {
-            font-size: 2rem;
-            margin-bottom: 2rem;
-        }
-
-        .hero-text1 {
-            border-bottom: 1px solid white;
-            margin-bottom: 1rem;
-            padding-bottom: 1rem;
-        }
-
-        .hero-text2 {
-            margin-bottom: 1rem
-        }
-
-        .btn {
-            background-color: black;
-            color: gray;
-            padding: .5rem 1.5rem;
-            font-weight: 600;
-        }
-        
     }
 
+.hero-text1 {
+    border-bottom: 1px solid white;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    text-align: justify;
 }
+
+.hero-text2 {
+    margin-bottom: 1rem;
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    background-color: black;
+    color: gray;
+    padding: .5rem 1.5rem;
+    font-weight: 700;
+    margin: 200px;
+}
+
 
 // seccion2 
 
@@ -45,13 +43,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    .hero2-text {
-        color: black;
-        font-weight: 800;
-    }
 }
 
+.hero2-text {
+    color: black;
+    font-weight: 800;
+}
 
 // banner principal 
 
@@ -64,26 +61,42 @@
 // Galeria de productos
 
 .galeria {
-    padding-block: 2rem;
+    padding-block: 1rem;
+    gap: 2rem;
 }
-    .galeria-title {
-        text-align: center;
-        font-size: 2rem;
-        margin-bottom: 2rem;
-        font-weight: 800;
-        }
-        .galeria-container {
-            display: flex;
-            max-width: 1000px;
-            margin-inline: auto;
-            gap: 2rem;
-            margin-bottom: 2rem;
-        }
-        .galeria-foto {
-            width: 100%; 
-        }
-            .galeria-foto img {
-                width: 100%;
-                aspect-ratio: 1 / 1;
-                object-fit: cover;
-            }
+
+.galeria-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 800;
+}
+
+.galeria-container {
+    display: flex;
+    max-width: 1000px;
+    margin-inline: auto;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    border-radius: .5rem;
+}
+
+.galeria-foto {
+    width: 100%;
+
+    .galeria-foto img {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+    }
+}
+
+    .hero__container {
+        flex-direction: column;
+        padding-inline: 2rem;
+    }
+
+    .hero-info {
+        flex-direction: column;
+        padding-inline: 2rem;
+    }

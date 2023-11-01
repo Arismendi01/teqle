@@ -1,5 +1,4 @@
 // Pagina Marketing
-
 .galeria-title {
     text-align: center;
     font-size: 2rem;
@@ -45,9 +44,9 @@
     }
         .galeria-title3 {
             text-align: center;
-            font-size: 2rem;
-            margin-bottom: 2rem;
+            margin-bottom: 1rem;
             font-weight: 800;
+            padding: 1rem;
         }
 
     .iconos-marketing {
@@ -58,12 +57,12 @@
         gap: 2rem;
     }
         .iconos {
-            background-color: greenyellow;
+            background-color: rgb(168, 255, 37);
             color: black;
             padding-block: 2rem;
             padding: 1rem;
         }
-    
+
         .icono {
             flex: 1;
             text-align: center;
@@ -71,9 +70,9 @@
             flex-direction: column;
             align-items: center;
             gap: 1rem;
-           
+
         }
-    
+
         .icono > div {
             border: 2px solid black;
             width: 3rem;
@@ -83,11 +82,11 @@
             justify-content: center;
             border-radius: 50%;
         }
-        
+
         .icono-icon {
             font-size: 2rem;
         }
-        
+
         .icon {
             float: right;
         }
@@ -100,4 +99,8 @@
     align-items: center;
     color: white;
     background-color: black;
+}
+
+.menu-link {
+    text-decoration: none;
 }

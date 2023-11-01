@@ -10,30 +10,33 @@
     width: 100%;
     padding: 10px 0;
     transition: top 0.3s;
-
-    .menu {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 1rem; 
-
-        .menu-link {
-            color: white;
-        }
-
-        .menu-item :hover {
-            background-color: blue;
-        }
-    }
-
-    .nav1 {
-        padding: 1rem;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-    
-    .logo {
-        height: 5rem;
-    }
 }
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+    .menu-link {
+        color: white;
+    }
+
+.menu-item :hover {
+    background-color: blue;
+}
+
+.nav1 {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+    .logo {
+        height: 10rem;
+    }
+
+    .hijo menu{
+        text-decoration: none;
+    }

@@ -27,6 +27,7 @@
             flex: 1;
             text-align: center;
             padding: 20px;
+            text-align: justify;
         }
 
     .imagen1-sitiosweb {
@@ -100,15 +101,3 @@
         color: rgb(0, 0, 0);
         padding: 6rem;
     }
-
-// Media query para sitios web
-
-@media (max-with: 768px ) {
-    .container-sitiosweb {
-        flex-direction: column;
-    }
-    .caja-izquierda {
-        flex: none;
-        max-width: 100%;
-    }
-}
