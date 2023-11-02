@@ -56,10 +56,6 @@
   height: 10rem;
 }
 
-.hijo menu {
-  text-decoration: none;
-}
-
 .body {
   display: flex;
   flex-direction: column;
