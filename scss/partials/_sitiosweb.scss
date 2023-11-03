@@ -1,22 +1,10 @@
 // Sitios web
 
-.banner-sitiosweb {
-    width: 100%;
-    flex-wrap: wrap; 
-    padding: 1rem;
-}
-    .banner-sitiosweb {
-        background-color: rgb(225, 0, 255);
-        padding-block: 2rem;
-        text-align: center;
-        font-weight: 800;
-    }
-
     .container-sitiosweb {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 20px;
+        padding: 10px;
     }
 
     .caja-izquierda {
@@ -46,6 +34,10 @@
             padding-block: 1rem;
             text-align: center;
             font-weight: 800;
+        }
+
+        .linea-web:hover {
+            transform: rotateX(20deg);
         }
 
     .galeria-web {

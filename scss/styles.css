@@ -78,6 +78,19 @@
   margin-inline: auto;
 }
 
+.animate__animated {
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: bounceIn;
+  animation-duration: 2s;
+}
+
+.hero-title {
+  text-align: center;
+  font-weight: 800;
+  padding-bottom: 1rem;
+}
+
 .hero-text1 {
   border-bottom: 1px solid white;
   margin-bottom: 1rem;
@@ -97,6 +110,10 @@
   padding: 0.5rem 1.5rem;
   font-weight: 700;
   margin: 200px;
+}
+
+.boton:hover {
+  transform: scale(1.2);
 }
 
 .hero2 {
@@ -139,6 +156,18 @@
   border-radius: 0.5rem;
 }
 
+.foto1:hover {
+  transform: scale(1.2);
+}
+
+.foto2:hover {
+  transform: scale(1.2);
+}
+
+.foto3:hover {
+  transform: scale(1.2);
+}
+
 .galeria-foto {
   width: 100%;
 }
@@ -159,24 +188,11 @@
   padding-inline: 2rem;
 }
 
-.banner-sitiosweb {
-  width: 100%;
-  flex-wrap: wrap;
-  padding: 1rem;
-}
-
-.banner-sitiosweb {
-  background-color: rgb(225, 0, 255);
-  padding-block: 2rem;
-  text-align: center;
-  font-weight: 800;
-}
-
 .container-sitiosweb {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px;
+  padding: 10px;
 }
 
 .caja-izquierda {
@@ -208,6 +224,10 @@
   padding-block: 1rem;
   text-align: center;
   font-weight: 800;
+}
+
+.linea-web:hover {
+  transform: rotateX(20deg);
 }
 
 .galeria-web {
@@ -307,6 +327,10 @@
 .hero3-text {
   color: black;
   font-weight: 600;
+}
+
+.hero3-text:hover {
+  transform: rotatez(-5deg);
 }
 
 .galeria-clientes {
@@ -430,7 +454,7 @@
 
 .texto2-lado {
   flex: 1;
-  text-align: center;
+  text-align: justify;
   padding: 20px;
 }
 
@@ -493,13 +517,13 @@
 .grid-container {
   height: 100vh;
   display: grid;
-  padding: 2rem;
+  padding: 1rem;
   grid-template-columns: repeat(8, fr);
   grid-template-rows: repeat(2, fr);
   grid-template-areas: "logo-gallery1 logo-gallery2  logo-gallery3 logo-gallery4" "logo-gallery5 logo-gallery6  logo-gallery7 logo-gallery8";
-  -moz-column-gap: 10px;
-       column-gap: 10px;
-  row-gap: 15px;
+  -moz-column-gap: 5px;
+       column-gap: 5px;
+  row-gap: 10px;
 }
 
 .hijo {

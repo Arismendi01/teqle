@@ -13,6 +13,18 @@
         margin-inline: auto;
     }
 
+    .animate__animated {
+        display: inline-block;
+        margin: 0 0.5rem;
+        animation: bounceIn;
+        animation-duration: 2s;
+      }
+.hero-title {
+    text-align: center;
+    font-weight: 800;
+    padding-bottom: 1rem;
+}
+
 .hero-text1 {
     border-bottom: 1px solid white;
     margin-bottom: 1rem;
@@ -34,6 +46,9 @@
     margin: 200px;
 }
 
+.boton:hover {
+    transform: scale(1.2);
+}
 
 // seccion2 
 
@@ -80,6 +95,17 @@
     margin-bottom: 2rem;
     border-radius: .5rem;
 }
+.foto1:hover {
+    transform: scale(1.2);
+}
+
+.foto2:hover {
+    transform: scale(1.2);
+}
+
+.foto3:hover {
+    transform: scale(1.2);
+}
 
 .galeria-foto {
     width: 100%;
@@ -89,6 +115,7 @@
         aspect-ratio: 1 / 1;
         object-fit: cover;
     }
+
 }
 
     .hero__container {

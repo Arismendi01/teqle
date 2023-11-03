@@ -36,6 +36,10 @@
             font-weight: 600;
         }
 
+        .hero3-text:hover {
+            transform: rotatez(-5deg)
+        }
+
     .galeria-clientes {
         padding-block: 1rem;
         display: flex;
