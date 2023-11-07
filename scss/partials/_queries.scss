@@ -644,83 +644,27 @@
 
 // Modo responsive del grid 
 
-    @media (max-width: 1200px) {
-        .grid-container {
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: 2fr  2fr  1fr  1fr;
-            grid-template-areas: 
-            "logo-gallery1  logo-gallery2"
-            "logo-gallery3  logo-gallery4"
-            "logo-gallery5  logo-gallery6"
-            "logo-gallery7  logo-gallery8"
-            ;
-        }
+@media screen and (max-width: 1024px) {
+    .container-img {
+        width: 95%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        grid-template-rows: 200px;
     }
-    
-    @media (max-width: 1024px) {
-        .grid-container {
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: 2fr  1fr  1fr  1fr;
-            grid-template-areas: 
-            "logo-gallery1  logo-gallery2"
-            "logo-gallery3  logo-gallery4"
-            "logo-gallery5  logo-gallery6"
-            "logo-gallery7  logo-gallery8"
-            ;
-        }
+    .container-img .box-img:nth-child(1) {
+        grid-column-start: span 1;
     }
-    
-    @media (max-width: 768px) {
-        .grid-container {
-            grid-template-columns: 1fr;
-            grid-template-rows: 3fr 3fr 3fr 3fr 3fr 1fr 1fr 1fr;
-            grid-template-areas: 
-            "logo-gallery1"
-            "logo-gallery2"
-            "logo-gallery3"
-            "logo-gallery4"
-            "logo-gallery5"
-            "logo-gallery6"
-            "logo-gallery7"
-            "logo-gallery8"
-            ;
-        }
-    }
-    
-    @media (max-width: 480px) {
-        .grid-container {
-            grid-template-columns: 1fr;
-            grid-template-rows: 3fr 3fr 3fr 3fr 1fr 1fr 1fr 1fr;
-            grid-template-areas: 
-            "logo-gallery1"
-            "logo-gallery2"
-            "logo-gallery3"
-            "logo-gallery4"
-            "logo-gallery5"
-            "logo-gallery6"
-            "logo-gallery7"
-            "logo-gallery8"
-            ;
-        }
-    }
-    
-    @media (max-width: 320px) {
-        .grid-container {
-            grid-template-columns: 1fr;
-            grid-template-rows: 3fr 3fr 3fr 1fr 1fr 1fr 1fr 1fr;
-            grid-template-areas: 
-            "logo-gallery1"
-            "logo-gallery2"
-            "logo-gallery3"
-            "logo-gallery4"
-            "logo-gallery5"
-            "logo-gallery6"
-            "logo-gallery7"
-            "logo-gallery8"
-            ;
-        }
-    }
+}
 
+@media screen and (max-width: 500px) {
+    .container-img {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .container-img .box-img:nth-child(1) {
+        height: 200px;
+    }
+}
 
 // Menu de abajo
 
