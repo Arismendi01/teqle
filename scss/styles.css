@@ -531,7 +531,7 @@ form {
   padding: 50px 55px;
   box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
-  width: 340px;
+  width: 400px;
   background-color: white;
 }
 
@@ -556,9 +556,9 @@ form {
 }
 
 .input, textarea {
-  padding: 17px 25px;
+  padding: 10px 55px;
   border-radius: 25px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   background-color: white;
   border: 2px solid black;
   color: black;
@@ -574,7 +574,7 @@ form {
 }
 
 .form-txt {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   display: flex;
   justify-content: space-between;
   text-align: center;
@@ -1386,6 +1386,29 @@ form {
     height: 200px;
   }
 }
+@media screen and (max-width: 320px) {
+  .form {
+    flex-direction: column;
+    padding: 0px 25px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .input, textarea {
+    flex-direction: column;
+    padding: 5px 25px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    outline: none;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .footer-content {
     flex-direction: column;
