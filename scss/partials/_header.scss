@@ -1,38 +1,9 @@
 // menu principal
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
-    background-color: black;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 10px 0;
-    transition: top 0.3s;
+.logo {
+    width: 200px;
 }
 
-.menu {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-}
-    .menu-link {
-        color: white;
-    }
-
-.menu-item :hover {
+.nav-item :hover {
     background-color: blue;
+    padding: .1rem;
 }
-
-.nav1 {
-    padding: 1rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-    .logo {
-        height: 10rem;
-    }

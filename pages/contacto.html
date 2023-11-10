@@ -6,73 +6,114 @@
     <title>Contacto</title>
     <meta name="description" content="Estamos aquí para escucharte. Contáctanos y déjanos saber cómo podemos ayudarte. Ya sea que tengas preguntas, necesites asesoramiento o desees colaborar en un proyecto, estamos listos para responder a tus inquietudes. Nuestra puerta está siempre abierta. ¡Comunícate con nosotros y déjanos ser tu socio en el camino hacia el éxito!">
     <meta name="keywords" content="Contacto, Información de contacto, Formulario de contacto, Contáctanos, Comunicación, Soporte, Servicio al cliente, Consultas, Solicitud de información, Correo electrónico de contacto">
-    <link rel="shortcut icon" href="./imagen/Teqle!logonegro.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../imagen/Teqle!logonegro.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../scss/styles.css">
 </head>
     <body>
-        <div class="container">
-            <header class="header">
-                <div class="Logo">
-                    <a href="../index.html" target=""><img src="../imagen/Teqle!logo.png" alt="logo de teqle" width="150px"><a href="#"></a>
-                </div>
-                <nav class="nav1">
-                    <ul class="menu">
-                        <li class="menu-item"><a class="menu-link" href="../index.html">Inicio</a></li>
-                        <li class="menu-item"><a class="menu-link" href="../pages/sitiosweb.html">Sitios web</a></li>
-                        <li class="menu-item"><a class="menu-link" href="../pages/marketing.html">Marketing</a></li>
-                        <li class="menu-item"><a class="menu-link" href="../pages/consultoria.html">Consultoría</a></li>
-                        <li class="menu-item"><a class="menu-link" href="../pages/portfolio.html">Portfolio</a></li>
-                        <li class="menu-item"><a class="menu-link" href="../pages/contacto.html">Contacto</a></li>
+        <header class="header">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="../index.html"><img class="logo" src="../imagen/Teqle!logo.png" alt="Logo de teqle"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../pages/sitiosweb.html">Sitios Web</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../pages/marketing.html">Marketing</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../pages/consultoria.html">Consultoría</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../pages/portfolio.html">Portfolio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../pages/contacto.html">Contacto</a>
+                      </li>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
                     </ul>
-                </nav>
-            </header> 
-        </div>
-        <main class="main">
-            <section class="formulario-contacto">
-                <form class="formulario">
-                    <h1 class="formularioh1">Formulario</h1>
-                <label for="nombre">Nombre y Apellido
-                    <input type="text" id="nombreyapellido" required placeholder="Ingrese su nombre">
-                </label>
-                <label for="email">Email
-                    <input type="email" id="email" required placeholder="Ingrese su email">
-                </label>
-                <label for="number">Teléfono
-                    <input type="number" id="number" required placeholder="Ingrese su teléfono">
-                </label>
-                <select name="" id="">
-                    <option disabled selected>Selecciona una opción</option>
-                    <option>Sitios web</option>
-                    <option>Marketing</option>
-                    <option>Consultoría</option>
-                </select>
-                <label for="motivo"><br>Motivo</label>
-                <textarea id="motivo" name="motivo" placeholder="Escriba aquí" cols="30" rows="10"></textarea><br>
-                <p>Estoy de acuerdo con <a href="#">Terminos y condiciones</a></p>
-                <label for="terminosycondiciones">
-                    <input type="checkbox" required>
-                </label>
-                <button class="boton" type="submit">Enviar</button>
-                </form>
-            </section>
-            <div class="whatsapp"> 
-                <a href="https://www.whatsapp.com/?lang=es_LA" target="_blank"> <img src="../imagen/whatsapp.png" alt="contacto" width="40px"></a><a href="#"></a></a>
-            </div>
+                  </div>
+                </div>
+              </nav>
+        </header> 
+        <main class="mainform">
+            <form action="https://formsubmit.co/arismendicj@gmail.com" method="POST">
+                <h2 class="h2">Contacto</h2>
+                <div class="imput-group">
+                    <label class="label" for="name">Nombre y Apellido</label>
+                    <input class="input" type="text" autocomplete="given-name" name="name" id="name" placeholder="Nombre y apellido">
+                    <label class="label" for="phone">Número de teléfono</label>
+                    <input class="input" type="tel" autocomplete="tel" name="phone" id="phone" placeholder="Número">
+                    <label class="label" for="email">Correo electrónico</label>
+                    <input class="input" type="email" autocomplete="off" name="email" id="email" placeholder="Correo electrónico">
+                    <select class="input" type="option" autocomplete="option" name="option" id="option" placeholder="option">
+                        <option disabled selected>Selecciona una opción</option>
+                        <option>Sitios web</option>
+                        <option>Marketing</option>
+                        <option>Consultoría</option>
+                    </select>
+                    <label class="label" for="message">Mensaje</label>
+                    <textarea name="message" id="message" cols="22" rows="10" placeholder="Mensaje"></textarea>
+                    <div class="form-text">
+                        <li> <a href="#">Politicas de privacidad</a></li>
+                        <li> <a href="#">Terminos y condiciones</a></li>
+                    </div> 
+                    <div class="boton2">  
+                        <input class="boton2" type="submit" value="Enviar">
+                    </div>
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+                    <input type="hidden"  name="_captcha" value="false">
+                </div>
+            </form>
         </main>
         <footer> 
             <nav class="footer-menu">
-                <ul class="sub-menu">
-                    <li class="menu-titulos">Servicios</li>
-                    <li class="menu-titulos">Blog</li>
-                    <li class="menu-titulos">Contacto</li>
-                </ul>
+                <div class="container">
+                    <div class="footer-content">
+                        <ul class="list">
+                        <a class="footer-content2"><h3>Servicios</h3></a>
+                            <li class="li"><a class="lista" href="../pages/sitiosweb.html">Sitios Web</a></li>
+                            <li class="li"><a class="lista" href="../pages/marketing.html">Marketing</a></li>
+                            <li class="li"><a class="lista" href="../pages/consultoria.html">Consultoria</a></li>
+                        </ul>
+                    </div>
+                        <div class="footer-content">
+                            <ul class="list">
+                                <a class="footer-content2"><h3>Nosotros</h3></a>
+                                <li class="li"><a class="lista" href="#">Blog</a></li>
+                                <li class="li"><a class="lista" href="../index.html">Empresa</a></li>
+                                <li class="li"><a class="lista" href="#">Centro de ayuda</a></li>
+                            </ul>
+                        </div>
+                    <div class="footer-content">
+                        <ul class="list">
+                            <a class="footer-content2" href="../pages/contacto.html"><h3 class="contacto">Contacto</h3></a>
+                            <li class="li"><p class="lista">Email: arismendicj@gmail.com</p></li>
+                            <li class="li"><p class="lista">Telefono: +54 911 62278341</p></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sub-footer-icons">
+                    <p class="copyright">Copyright 2023 - Teqle!</p>
+                        <a class="icon" href="https://www.tiktok.com/es/" target="_blank"><img src="../imagen/tiktok.png" alt="logo de tik tok" width="20px"><a href="#"></a></a>
+                        <a class="icon" href="https://www.facebook.com/?locale=es_LA" target="_blank"><img src="../imagen/Meta.png" alt="logo de facebook" width="40px"><a href="#"></a></a>
+                        <a class="icon" href="https://www.instagram.com/" target="_blank"><img src="../imagen/Instagram.png" alt="Logo de Instagram" width="20px"><a href="#"></a></a>
+                </div>
             </nav>
-            <div class="sub-footer-icons">
-                <p class="copyright"> Copyright 2023 - Teqle!</p>
-                <a class="icon" href="https://www.tiktok.com/es/" target="_blank"><img src="../imagen/tiktok.png" alt="logo de tik tok" width="20px"><a href="#"></a></a>
-                <a class="icon" href="https://www.facebook.com/?locale=es_LA" target="_blank"><img src="../imagen/Meta.png" alt="logo de facebook" width="40px"><a href="#"></a></a>
-                <a class="icon" href="https://www.instagram.com/" target="_blank"><img src="../imagen/Instagram.png" alt="Logo de Instagram" width="20px"><a href="#"></a></a>
-            </div>
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     </body>
 </html>

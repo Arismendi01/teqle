@@ -43,11 +43,13 @@
     color: gray;
     padding: .5rem 1.5rem;
     font-weight: 700;
-    margin: 200px;
+    margin: 10px;
+    display:block;
 }
 
-.boton:hover {
+.btn:hover {
     transform: scale(1.2);
+    background-color: blue;
 }
 
 // seccion2 

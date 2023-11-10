@@ -227,38 +227,33 @@
 
 .btn {
     @media screen and (max-width: 1200px) {
-        padding: .8rem 1.2rem;
         font-weight: 600;
-        display: center;
-        margin: 180px;
+        display:block;
+        margin: 10px;
     }
         
     @media screen and (max-width: 1024px) {
-        padding: .5rem 1.2rem;
-        font-weight: 400;
-        display: center;
-        margin: 90px;
+        font-weight: 600;
+        display:block;
+        margin: 10px;
     }
         
     @media screen and (max-width: 768px) {
-        padding: .5rem 1.2rem;
-        font-weight: 400;
-        display: center;
-        margin: 250px;
+        font-weight: 500;
+        display:block;
+        margin: 10px;
     }
 
     @media screen and (max-width: 480px) {
-        padding: .5rem 1.2rem;
         font-weight: 400;
-        display: center;
-        margin: 100px;
+        display:block;
+        margin: 10px;
     }
 
     @media screen and (max-width: 320px) {
-        padding: .2rem .5rem;
-        font-weight: 200;
-        display: center;
-        margin: 50px;
+        font-weight: 300;
+        display:block;
+        margin: 10px;
     }  
 }
 
@@ -668,7 +663,8 @@
 
 // Menu de abajo
 
-.sub-menu {  
+
+.footer-content {  
         @media screen and (max-width: 768px) {
             flex-direction: column;
         }
@@ -680,6 +676,7 @@
         @media screen and (max-width: 320px) {
             flex-direction: column;
         }
+       
 }
 
 // Sub footer 
@@ -702,31 +699,31 @@
 .whatsapp {
     @media screen and (max-width: 1200px) {
         flex-direction: column;
-        right: .7rem;
-        bottom: 5.5rem;
+        right: 0.2rem;
+        bottom:3.2rem;
     }
 
     @media screen and (max-width: 1024px) {
         flex-direction: column;
-        right: .7rem;
-        bottom: 9rem;
+        right: .2rem;
+        bottom: 3.2rem;
     }
 
     @media screen and (max-width: 768px) {
         flex-direction: column;
-        right: .5rem;
-        bottom: 2.2rem;
+        right: .05rem;
+        bottom: 3.2rem;
     }
 
     @media screen and (max-width: 480px) {
         flex-direction: column;
-        right: .1rem;
-        bottom: 2.1rem;
+        right: 0.08rem;
+        bottom: 3.2rem;
     }
 
     @media screen and (max-width: 320px) {
         flex-direction: column;
         right: .1rem;
-        bottom: 2.2rem;
+        bottom: 3.2rem;
     }
 }

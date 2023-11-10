@@ -1,56 +1,78 @@
 // Formulario Pagina contacto
+.mainform {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-grow: 1;
+    background-color: lightseagreen;
+}
 
-.formulario-contacto {
-    padding: 4rem;
+form {
+    padding: 50px 55px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    width: 340px;
+    background-color: white;
+}
 
-    .formulario {
-        width: 300px;
-        margin: 0 auto;
-        padding: 20px;
-        border: 1px solid #ccc;
-        background-color: #f9f9f9;
-        flex-wrap: wrap;
-    }
+.input-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
 
-    .formularioh1 {
-        font-weight: 800;
-        color: black;
-        flex-wrap: wrap;
-        text-align: center;
-        padding: 2rem;
-    }
+.h2 {
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding: 2rem;
+}
 
-    .label {
-        display: block;
-        margin-bottom: 10px;
-        font-weight: bold;
-        flex-wrap: wrap;
-    }
+.label {
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
 
-    input[type="text"],
-    input[type="email"],
-    input[type="number"],
-    textarea {
-        width: 100%;
-        padding: 10px;
-        margin-bottom: 10px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        resize: vertical;
-        flex-wrap: wrap;
-    }
+.input, textarea {
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    outline: none;
+}
 
-    input[type="submit"] {
-        background-color: #007bff;
-        color: #fff;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        flex-wrap: wrap;
-    }
-    
-    input[type="submit"]:hover {
-        background-color: #0056b3;
-    }
+.input::placeholder, textarea::placeholder {
+    color: #b5cab6;
+}
+
+.form-txt {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.form-txt a {
+    color: #76b28e;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.boton2 {
+    font-size: 16px;
+    color: aliceblue;
+    border: 0;
+    border-radius: 25px;
+    background-color: black;
+    box-shadow: rgba(25, 254, 0, 0.4);
+    cursor: pointer;
+    text-align: center;
+    padding: .2rem;
+    margin: .2rem;
 }

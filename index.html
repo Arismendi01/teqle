@@ -8,69 +8,124 @@
     <meta name="keywords" content="Marketing digital, Desarrollo web, Asesoría empresarial, Estrategia de marketing en línea, Diseño web creativo, SEO (Optimización de motores de búsqueda), Consultoría de negocios, Publicidad en línea, Estrategias de crecimiento empresarial">
     <link rel="shortcut icon" href="./imagen/Teqle!logonegro.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./scss/styles.css">
 </head>
-    <body class="body">
-        <div class="container">
-            <header class="header">
-                <div class="Logo">
-                    <a href="./index.html" target=""><img src="./imagen/Teqle!logo.png" alt="logo de teqle" width="150px"><a href="#"></a>
-                </div>
-                <nav class="nav1">
-                    <ul class="menu">
-                        <li class="menu-item"><a class="menu-link" href="./index.html">Inicio</a></li>
-                        <li class="menu-item"><a class="menu-link" href="./pages/sitiosweb.html">Sitios web</a></li>
-                        <li class="menu-item"><a class="menu-link" href="./pages/marketing.html">Marketing</a></li>
-                        <li class="menu-item"><a class="menu-link" href="./pages/consultoria.html">Consultoría</a></li>
-                        <li class="menu-item"><a class="menu-link" href="./pages/portfolio.html">Portfolio</a></li>
-                        <li class="menu-item"><a class="menu-link" href="./pages/contacto.html">Contacto</a></li>
+    <body>
+        <header class="header">
+            <nav class="navbar  navbar-expand-lg navbar-dark bg-black">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="../index.html"><img class="logo" src="../imagen/Teqle!logo.png" alt="Logo de teqle"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../pages/sitiosweb.html">Sitios Web</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../pages/marketing.html">Marketing</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../pages/consultoria.html">Consultoría</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../pages/portfolio.html">Portfolio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../pages/contacto.html">Contacto</a>
+                      </li>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
                     </ul>
-                </nav>
-            </header> 
-        </div>
-            <main>
-                <section class="hero">
-                    <div class="hero-container">
+                  </div>
+                </div>
+              </nav>
+        </header> 
+        <main>
+            <section class="hero">
+                <div class="hero-container">
                             <img class="animate__animated img-hero" src="./imagen/atronauta.png" alt="Astronauta">
-                        <div class="hero-info"> 
-                            <h1 class="hero-title">El       astronauta de Teqle!</h1>
-                                <p class="hero-text1"> Estamos dedicados a impulsar tu negocio hacia un futuro lleno de éxito y oportunidades. Somos mucho más que una empresa de desarrollo web y marketing; somos tus aliados estratégicos en el mundo empresarial. Nos enorgullecemos de combinar nuestra pasión por la creatividad, la innovación y la tecnología para hacer realidad tus sueños comerciales..</p>
-                                <p class="hero-text2">Tu éxito está a solo un clic de distancia. ¡Contáctanos hoy y descubre cómo Teqle! puede llevar tu negocio al siguiente nivel!.</p>
-                            <div class="boton">
-                                <a class="btn" href="https://www.instagram.com/" target="_blank">Siguenos aquí</a>
-                            </div>
+                    <div class="hero-info"> 
+                        <h1 class="hero-title">El astronauta de Teqle!</h1>
+                            <p class="hero-text1"> Estamos dedicados a impulsar tu negocio hacia un futuro lleno de éxito y oportunidades. Somos mucho más que una empresa de desarrollo web y marketing; somos tus aliados estratégicos en el mundo empresarial. Nos enorgullecemos de combinar nuestra pasión por la creatividad, la innovación y la tecnología para hacer realidad tus sueños comerciales..</p>
+                            <p class="hero-text2">Tu éxito está a solo un clic de distancia. ¡Contáctanos hoy y descubre cómo Teqle! puede llevar tu negocio al siguiente nivel!.</p>
+                        <div class="boton">
+                            <a class="btn" href="https://www.instagram.com/" target="_blank">Siguenos aquí</a>
                         </div>
                     </div>
-                </section>
-                <section class="hero2">
-                    <h2 class="hero2-text">¿Por qué Elegirnos?</h2>
-                </section>
-                <section class="galeria">
-                    <h2 class="galeria-title">Galeria de Productos</h2>
-                        <div class="galeria-container">
-                            <div class="galeria-foto foto1"></a><img src="./imagen/marketing.jpeg" alt="Marketing"></a></div>
-                            <div class="galeria-foto foto2"><img src="./imagen/desarrolloweb.jpg" alt="sitios Web"></div>
-                            <div class="galeria-foto foto2"><img src="./imagen/business-consulting.jpg" alt="Asesoría de negocios"></div>
-                        </div>
-                </section>
-                <div class="whatsapp"> 
-                    <a href="https://www.whatsapp.com/?lang=es_LA" target="_blank"> <img src="./imagen/whatsapp.png" alt="contacto" width="40px"></a><a href="#"></a></a>
                 </div>
-            </main>
+            </section>
+            <section class="hero2">
+                <h2 class="hero2-text">¿Por qué elegirnos?</h2>
+            </section>
+            <section class="galeria">
+                <h2 class="galeria-title">Galeria de Productos</h2>
+                    <div class="galeria-container">
+                        <div class="galeria-foto foto1">
+                            <a href="./pages/marketing.html">
+                                <img src="./imagen/marketing.jpeg" alt="Marketing">
+                            </a>
+                        </div>
+                        <div class="galeria-foto foto2">
+                            <a href="./pages/sitiosweb.html">
+                                <img src="./imagen/desarrolloweb.jpg" alt="sitios Web">
+                            </a>
+                        </div>
+                        <div class="galeria-foto foto2">
+                            <a href="./pages/consultoria.html">
+                                <img src="./imagen/business-consulting.jpg" alt="Asesoría de negocios">
+                            </a>
+                        </div>
+                    </div>
+            </section>
+            <div class="whatsapp"> 
+                <a href="https://www.whatsapp.com/?lang=es_LA" target="_blank"> <img src="./imagen/whatsapp.png" alt="contacto" width="40px"></a><a href="#"></a></a>
+            </div>
+        </main>
         <footer> 
             <nav class="footer-menu">
-                <ul class="sub-menu">
-                    <li class="menu-titulos">Servicios</li>
-                    <li class="menu-titulos">Blog</li>
-                    <li class="menu-titulos">Contacto</li>
-                </ul>
+                <div class="container">
+                    <div class="footer-content">
+                        <ul class="list">
+                        <a class="footer-content2"><h3>Servicios</h3></a>
+                            <li class="li"><a class="lista" href="./pages/sitiosweb.html">Sitios Web</a></li>
+                            <li class="li"><a class="lista" href="./pages/marketing.html">Marketing</a></li>
+                            <li class="li"><a class="lista" href="./pages/consultoria.html">Consultoria</a></li>
+                        </ul>
+                    </div>
+                        <div class="footer-content">
+                            <ul class="list">
+                                <a class="footer-content2"><h3>Nosotros</h3></a>
+                                <li class="li"><a class="lista" href="#">Blog</a></li>
+                                <li class="li"><a class="lista" href="./index.html">Empresa</a></li>
+                                <li class="li"><a class="lista" href="#">Centro de ayuda</a></li>
+                            </ul>
+                        </div>
+                    <div class="footer-content">
+                        <ul class="list">
+                            <a class="footer-content2" href="./pages/contacto.html"><h3 class="contacto">Contacto</h3></a>
+                            <li class="li"><p class="lista">Email: arismendicj@gmail.com</p></li>
+                            <li class="li"><p class="lista">Telefono: +54 911 62278341</p></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sub-footer-icons">
+                    <p class="copyright">Copyright 2023 - Teqle!</p>
+                        <a class="icon" href="https://www.tiktok.com/es/" target="_blank"><img src="./imagen/tiktok.png" alt="logo de tik tok" width="20px"><a href="#"></a></a>
+                        <a class="icon" href="https://www.facebook.com/?locale=es_LA" target="_blank"><img src="./imagen/Meta.png" alt="logo de facebook" width="40px"><a href="#"></a></a>
+                        <a class="icon" href="https://www.instagram.com/" target="_blank"><img src="./imagen/Instagram.png" alt="Logo de Instagram" width="20px"><a href="#"></a></a>
+                </div>
             </nav>
-            <div class="sub-footer-icons">
-                <p class="copyright">Copyright 2023 - Teqle!</p>
-                    <a class="icon" href="https://www.tiktok.com/es/" target="_blank"><img src="./imagen/tiktok.png" alt="logo de tik tok" width="20px"><a href="#"></a></a>
-                    <a class="icon" href="https://www.facebook.com/?locale=es_LA" target="_blank"><img src="./imagen/Meta.png" alt="logo de facebook" width="40px"><a href="#"></a></a>
-                    <a class="icon" href="https://www.instagram.com/" target="_blank"><img src="./imagen/Instagram.png" alt="Logo de Instagram" width="20px"><a href="#"></a></a>
-            </div>
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     </body>
 </html>
