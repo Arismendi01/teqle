@@ -24,6 +24,7 @@
 .nav-item :hover {
   background-color: blue;
   padding: 0.1rem;
+  transition: 0.2s;
 }
 
 body {
@@ -142,12 +143,15 @@ body .main {
 
 .galeria-foto {
   width: 100%;
+  transition: 0.2s;
 }
 .galeria-foto .galeria-foto img {
   width: 100%;
-  aspect-ratio: 1/1;
   -o-object-fit: cover;
      object-fit: cover;
+}
+.galeria-foto .galeria-productos {
+  border-radius: 4%;
 }
 
 .hero__container {
@@ -277,9 +281,9 @@ body .main {
   margin-bottom: 2rem;
 }
 
-.carousel-inner {
-  width: 100%;
-  height: 100%;
+.carousel-item {
+  background-image: 2000px;
+  background-size: 100% 100%;
 }
 
 .galeria-foto {
@@ -497,6 +501,12 @@ body .main {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 250px;
   grid-gap: 20px;
+}
+
+.box-img :hover {
+  transform: scale(1.2);
+  transition: 0.2s;
+  border-radius: 4%;
 }
 
 .container-img .box-img figure {

@@ -97,6 +97,7 @@
     margin-bottom: 2rem;
     border-radius: .5rem;
 }
+
 .foto1:hover {
     transform: scale(1.2);
 }
@@ -111,15 +112,18 @@
 
 .galeria-foto {
     width: 100%;
-
+    transition: 0.2s;
+    
     .galeria-foto img {
         width: 100%;
-        aspect-ratio: 1 / 1;
         object-fit: cover;
     }
 
-}
+    .galeria-productos {
+        border-radius: 4%;
+    }
 
+}
     .hero__container {
         flex-direction: column;
         padding-inline: 2rem;
